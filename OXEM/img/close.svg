@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4 (15588) - http://www.bohemiancoding.com/sketch -->
+    <title>Exit</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Form-1" sketch:type="MSArtboardGroup" transform="translate(-1312.000000, -200.000000)">
+            <g id="Message" sketch:type="MSLayerGroup">
+                <g id="Exit" transform="translate(1318.000000, 206.000000)" sketch:type="MSShapeGroup">
+                    <circle id="Oval-130" fill="#5769CD" filter="url(#filter-1)" cx="29" cy="29" r="29"></circle>
+                    <path d="M31.6135587,28.9990704 L39.4567136,21.1559155 C40.1786854,20.4339437 40.1786854,19.2633991 39.4567136,18.5415305 C38.7347418,17.8195587 37.5643005,17.8195587 36.8423286,18.5415305 L28.9990704,26.3847887 L21.1558122,18.5414272 C20.4338404,17.8194554 19.2633991,17.8194554 18.5414272,18.5414272 C17.8195587,19.2633991 17.8195587,20.4339437 18.5414272,21.1558122 L26.3846854,28.9989671 L18.5414272,36.8422254 C17.8195587,37.5641972 17.8195587,38.7347418 18.5414272,39.4566103 C19.2633991,40.1785822 20.4338404,40.1785822 21.1558122,39.4566103 L28.9990704,31.6133521 L36.8423286,39.4566103 C37.5641972,40.1785822 38.7347418,40.1785822 39.4567136,39.4566103 C40.1786854,38.7346385 40.1786854,37.5641972 39.4567136,36.8422254 L31.6135587,28.9990704 L31.6135587,28.9990704 Z" id="Shape" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
